@@ -11,8 +11,20 @@ Now, if you know the amount of money she has, can you tell which item/items she 
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
+    int amount;
+    scanf("%d",&amount);
+    if(amount>=10000){
+        printf("Gucci Bag\n");
+        if(amount>20000){
+            printf("Gucci Belt\n");
+        }
+    }
+    else if (amount>=5000 && amount<10000){
+        printf("Levis Bag\n");
+    }
+    else{
+        printf("Something\n");
+    }
     
-    
-    printf("Hello, World!\n");
     return 0;
 }
