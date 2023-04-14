@@ -10,7 +10,11 @@
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+    int n;
+    scanf("%d", &n);
+    for (int i=0; i<n; i++) {
+        printf("I Love Assignment\n");
+    }
+    
     return 0;
 }
