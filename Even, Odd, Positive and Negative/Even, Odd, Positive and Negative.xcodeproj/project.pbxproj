@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2B77C00929E6530B00845711 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B77C00829E6530B00845711 /* main.c */; };
+		2B4D446F29E8F3D400D68DCA /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B4D446E29E8F3D400D68DCA /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		2B77C00329E6530B00845711 /* CopyFiles */ = {
+		2B4D446929E8F3D400D68DCA /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2B77C00529E6530B00845711 /* Even, Odd, Positive and Negative */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Even, Odd, Positive and Negative"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B77C00829E6530B00845711 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		2B4D446B29E8F3D400D68DCA /* Even, Odd, Positive and Negative */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Even, Odd, Positive and Negative"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B4D446E29E8F3D400D68DCA /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2B77C00229E6530B00845711 /* Frameworks */ = {
+		2B4D446829E8F3D400D68DCA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,26 +38,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2B77BFFC29E6530B00845711 = {
+		2B4D446229E8F3D400D68DCA = {
 			isa = PBXGroup;
 			children = (
-				2B77C00729E6530B00845711 /* Even, Odd, Positive and Negative */,
-				2B77C00629E6530B00845711 /* Products */,
+				2B4D446D29E8F3D400D68DCA /* Even, Odd, Positive and Negative */,
+				2B4D446C29E8F3D400D68DCA /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		2B77C00629E6530B00845711 /* Products */ = {
+		2B4D446C29E8F3D400D68DCA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2B77C00529E6530B00845711 /* Even, Odd, Positive and Negative */,
+				2B4D446B29E8F3D400D68DCA /* Even, Odd, Positive and Negative */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2B77C00729E6530B00845711 /* Even, Odd, Positive and Negative */ = {
+		2B4D446D29E8F3D400D68DCA /* Even, Odd, Positive and Negative */ = {
 			isa = PBXGroup;
 			children = (
-				2B77C00829E6530B00845711 /* main.c */,
+				2B4D446E29E8F3D400D68DCA /* main.c */,
 			);
 			path = "Even, Odd, Positive and Negative";
 			sourceTree = "<group>";
@@ -65,13 +65,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2B77C00429E6530B00845711 /* Even, Odd, Positive and Negative */ = {
+		2B4D446A29E8F3D400D68DCA /* Even, Odd, Positive and Negative */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2B77C00C29E6530B00845711 /* Build configuration list for PBXNativeTarget "Even, Odd, Positive and Negative" */;
+			buildConfigurationList = 2B4D447229E8F3D400D68DCA /* Build configuration list for PBXNativeTarget "Even, Odd, Positive and Negative" */;
 			buildPhases = (
-				2B77C00129E6530B00845711 /* Sources */,
-				2B77C00229E6530B00845711 /* Frameworks */,
-				2B77C00329E6530B00845711 /* CopyFiles */,
+				2B4D446729E8F3D400D68DCA /* Sources */,
+				2B4D446829E8F3D400D68DCA /* Frameworks */,
+				2B4D446929E8F3D400D68DCA /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -79,24 +79,24 @@
 			);
 			name = "Even, Odd, Positive and Negative";
 			productName = "Even, Odd, Positive and Negative";
-			productReference = 2B77C00529E6530B00845711 /* Even, Odd, Positive and Negative */;
+			productReference = 2B4D446B29E8F3D400D68DCA /* Even, Odd, Positive and Negative */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2B77BFFD29E6530B00845711 /* Project object */ = {
+		2B4D446329E8F3D400D68DCA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					2B77C00429E6530B00845711 = {
+					2B4D446A29E8F3D400D68DCA = {
 						CreatedOnToolsVersion = 14.3;
 					};
 				};
 			};
-			buildConfigurationList = 2B77C00029E6530B00845711 /* Build configuration list for PBXProject "Even, Odd, Positive and Negative" */;
+			buildConfigurationList = 2B4D446629E8F3D400D68DCA /* Build configuration list for PBXProject "Even, Odd, Positive and Negative" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -104,29 +104,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 2B77BFFC29E6530B00845711;
-			productRefGroup = 2B77C00629E6530B00845711 /* Products */;
+			mainGroup = 2B4D446229E8F3D400D68DCA;
+			productRefGroup = 2B4D446C29E8F3D400D68DCA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2B77C00429E6530B00845711 /* Even, Odd, Positive and Negative */,
+				2B4D446A29E8F3D400D68DCA /* Even, Odd, Positive and Negative */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2B77C00129E6530B00845711 /* Sources */ = {
+		2B4D446729E8F3D400D68DCA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B77C00929E6530B00845711 /* main.c in Sources */,
+				2B4D446F29E8F3D400D68DCA /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		2B77C00A29E6530B00845711 /* Debug */ = {
+		2B4D447029E8F3D400D68DCA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -184,7 +184,7 @@
 			};
 			name = Debug;
 		};
-		2B77C00B29E6530B00845711 /* Release */ = {
+		2B4D447129E8F3D400D68DCA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -235,7 +235,7 @@
 			};
 			name = Release;
 		};
-		2B77C00D29E6530B00845711 /* Debug */ = {
+		2B4D447329E8F3D400D68DCA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -243,7 +243,7 @@
 			};
 			name = Debug;
 		};
-		2B77C00E29E6530B00845711 /* Release */ = {
+		2B4D447429E8F3D400D68DCA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -254,25 +254,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2B77C00029E6530B00845711 /* Build configuration list for PBXProject "Even, Odd, Positive and Negative" */ = {
+		2B4D446629E8F3D400D68DCA /* Build configuration list for PBXProject "Even, Odd, Positive and Negative" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2B77C00A29E6530B00845711 /* Debug */,
-				2B77C00B29E6530B00845711 /* Release */,
+				2B4D447029E8F3D400D68DCA /* Debug */,
+				2B4D447129E8F3D400D68DCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2B77C00C29E6530B00845711 /* Build configuration list for PBXNativeTarget "Even, Odd, Positive and Negative" */ = {
+		2B4D447229E8F3D400D68DCA /* Build configuration list for PBXNativeTarget "Even, Odd, Positive and Negative" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2B77C00D29E6530B00845711 /* Debug */,
-				2B77C00E29E6530B00845711 /* Release */,
+				2B4D447329E8F3D400D68DCA /* Debug */,
+				2B4D447429E8F3D400D68DCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2B77BFFD29E6530B00845711 /* Project object */;
+	rootObject = 2B4D446329E8F3D400D68DCA /* Project object */;
 }
