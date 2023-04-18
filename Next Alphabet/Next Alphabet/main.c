@@ -8,6 +8,14 @@
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
+    char alphabet;
+    scanf("%c", &alphabet);
+    if(alphabet == 'z'){
+        printf("%c\n", alphabet-25);
+    }
+    else{
+        printf("%c\n", alphabet+1);
+    }
     
     return 0;
 }
