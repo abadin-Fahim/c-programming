@@ -1,0 +1,13 @@
+//
+//  main.c
+//  Next Alphabet
+//Problem Statement: Given a lowercase alphabet character. You have to print the next character in the alphabet.
+//  Created by Joynal Abadin Fahim on 18.04.23.
+//
+
+#include <stdio.h>
+
+int main(int argc, const char * argv[]) {
+    
+    return 0;
+}
