@@ -13,9 +13,26 @@
 //
 
 #include <stdio.h>
-
+ 
 int main(int argc, const char * argv[]) {
-    int n,m,k;
+    long long  n,m,k;
+    scanf("%lld %lld %lld",&n,&m,&k);
+    long long count =0;
+    
+        while (n>=1 && m >=1 && k>=1) {
+            n -=1;
+            m -=1;
+            k -=1;
+            count++;
+        }
+        while (n>=2 && k>=1) {
+            n -=2;
+            k -=1;
+            count++;
+        }
+        printf("%lld\n",count);
+
+        
     
     return 0;
 }
