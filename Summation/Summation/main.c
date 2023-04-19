@@ -12,23 +12,18 @@ EX : |-5| = 5 , |7| = 7
 //
 
 #include <stdio.h>
-
+#include <stdlib.h>
 int main(int argc, const char * argv[]) {
     int n;
     scanf("%d",&n);
     int ary[n];
-    int sum=0;
+    long long sum=0, abs_sum;
     for (int i=0; i<n; i++) {
         scanf("%d",&ary[i]);
-        sum += ary[i];
+        sum += (ary[i]);
         
     }
-    if(sum<0){
-        printf("%d \n",sum*(-1));
-
-    }
-    else{
-        printf("%d \n",sum);
-    }
+    abs_sum = llabs(sum);
+    printf("%lld\n",abs_sum);
         return 0;
 }
