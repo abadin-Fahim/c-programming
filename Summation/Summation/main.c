@@ -24,11 +24,11 @@ int main(int argc, const char * argv[]) {
         
     }
     if(sum<0){
-        printf("%d\n",sum*(-1));
+        printf("%d \n",sum*(-1));
 
     }
     else{
-        printf("%d\n",sum);
+        printf("%d \n",sum);
     }
         return 0;
 }
