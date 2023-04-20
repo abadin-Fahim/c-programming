@@ -11,6 +11,9 @@
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
-    
+    int m1,m2,days_take_for_m1,days_take_for_m2;
+    scanf("%d %d %d",&m1,&m2,&days_take_for_m1);
+    days_take_for_m2 = (days_take_for_m1*m1)/m2;
+    printf("%d\n",days_take_for_m2);
     return 0;
 }
