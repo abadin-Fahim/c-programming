@@ -7,9 +7,18 @@
 //
 
 #include <stdio.h>
+#include <string.h>
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+    char s[100];
+    scanf("%s",s);
+    int vowel_count=0;
+    for (int i=0; i<strlen(s); i++) {
+        if(s[i]=='a'||s[i]=='e'||s[i]=='i'||s[i]=='o'||s[i]=='u'){
+            vowel_count++;
+        }
+        
+    }
+    printf("%d\n",vowel_count);
     return 0;
 }
