@@ -15,24 +15,35 @@
 #include <stdio.h>
  
 int main(int argc, const char * argv[]) {
-    long long  n,m,k;
+    long long int n,m,k;
     scanf("%lld %lld %lld",&n,&m,&k);
-    long long count =0;
+    long long int count =0;
     
-        while (n>=1 && m >=1 && k>=1) {
-            n -=1;
-            m -=1;
-            k -=1;
-            count++;
+    if (n == 0 || k == 0) {
+        printf("0\n");
+    }
+    else{
+        long long int  min = n;
+        if (m < min) {
+            min = m;
         }
-        while (n>=2 && k>=1) {
-            n -=2;
-            k -=1;
-            count++;
+        if (k < min) {
+            min = k;
+        }
+        n -= min;
+        m -= min;
+        k -= min;
+        count += min;
+        if (n/2 < k) {
+            count += n/2;
+            
+        }
+        else{
+            count += k;
         }
         printf("%lld\n",count);
-
-        
+    }
     
+        
     return 0;
 }
