@@ -9,7 +9,7 @@
 #include <string.h>
 
 int main(int argc, const char * argv[]) {
-    char str[100];
+    char str[1001];
     scanf("%s", str);
     int count_small=0,count_capital=0;
     for (int i=0; i<strlen(str); i++) {
