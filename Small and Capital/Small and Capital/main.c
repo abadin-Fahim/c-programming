@@ -6,9 +6,20 @@
 //
 
 #include <stdio.h>
+#include <string.h>
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+    char str[100];
+    scanf("%s", str);
+    int count_small=0,count_capital=0;
+    for (int i=0; i<strlen(str); i++) {
+        if(str[i]>='A' && str[i]<='Z'){
+            count_capital++;
+        }
+        else if(str[i]>='a' && str[i]<='z'){
+            count_small++;
+        }
+    }
+    printf("%d %d\n",count_capital,count_small);
     return 0;
 }
