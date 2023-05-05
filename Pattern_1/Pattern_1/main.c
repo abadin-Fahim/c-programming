@@ -1,14 +1,34 @@
 //
 //  main.c
 //  Pattern_1
-//Problem Statement: Write a C program to take positive integer N as input and print a pattern shown in the sample input output.    
+//Problem Statement: Write a C program to take positive integer N as input and print a pattern shown in the sample input output.
 //  Created by Joynal Abadin Fahim on 05.05.23.
 //
 
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+    int n,space,k;
+    scanf("%d",&n);
+    space = n-1;
+    k = 1;
+    for (int i=1; i<=(2*n)-1; i++) {
+        
+        for (int j=1; j<=space; j++) {
+            printf(" ");
+        }
+        for (int j=1; j<=k; j++) {
+            printf("%d",j);
+        }
+        if(i<=n-1){
+            space--;
+            k+=2;
+        }
+        else{
+            space++;
+            k-=2;
+        }
+        printf("\n");
+    }
     return 0;
 }
