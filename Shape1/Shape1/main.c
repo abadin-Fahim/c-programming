@@ -8,7 +8,7 @@
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
-    int n,space,k;
+    int n,k;
     scanf("%d",&n);
     k=n;
     for (int i=1; i<=n; i++) {
