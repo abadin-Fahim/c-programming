@@ -7,8 +7,42 @@
 
 #include <stdio.h>
 
+int summation(void){
+    int a,b;
+    scanf("%d %d", &a, &b);
+    int sum = a + b;
+    return sum;
+    
+}
+int substract(void){
+    int a,b;
+    scanf("%d %d", &a, &b);
+    int sub = a - b;
+    return sub;
+}
+int multiply(void){
+    int a,b;
+    scanf("%d %d", &a, &b);
+    int mul = a * b;
+    return mul;
+}
+int division(void){
+    int a,b;
+    scanf("%d %d", &a, &b);
+    int div = a / b;
+    return div;
+}
+
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+    
+    int sum = summation();
+    int sub = substract();
+    int product = multiply();
+    int div = division();
+    printf("Sum = %d\n", sum);
+    printf("Sub = %d\n", sub);
+    printf("Product = %d\n", product);
+    printf("Division = %d\n", div);
+    
     return 0;
 }
