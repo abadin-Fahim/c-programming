@@ -1,7 +1,7 @@
 //
 //  main.c
 //  Print from N to 1_Recursion
-//
+//Problem Statement: Given a number N. Print all numbers from N to 1 separated by a single space.
 //  Created by Joynal Abadin Fahim on 11.05.23.
 //
 
