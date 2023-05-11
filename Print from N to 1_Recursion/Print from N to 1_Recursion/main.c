@@ -7,8 +7,19 @@
 
 #include <stdio.h>
 
+void reverse_number(int n, int first_num){
+    if(n==1){
+        printf("1");
+        return;
+    }
+    printf("%d ",n);
+    reverse_number(n-1,first_num);
+    
+}
+
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+    int x;
+    scanf("%d",&x);
+    reverse_number(x,1);
     return 0;
 }
