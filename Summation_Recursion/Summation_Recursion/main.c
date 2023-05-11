@@ -1,7 +1,7 @@
 //
 //  main.c
 //  Summation_Recursion
-//
+//Problem Statement: Given a number N and an array A of N numbers. Print the summation of the array elements.
 //  Created by Joynal Abadin Fahim on 11.05.23.
 //
 
