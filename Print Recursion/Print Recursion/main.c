@@ -7,13 +7,17 @@
 
 #include <stdio.h>
 
-int recursion(int n){
-    
+void print_recursion(int n){
+    if(n<=0){
+        return;
+    }
+    printf("I love Recursion\n");
+    print_recursion(n-1);
 }
 
 int main(int argc, const char * argv[]) {
     int x;
     scanf("%d",&x);
-    recursion();
+    print_recursion(x);
     return 0;
 }
