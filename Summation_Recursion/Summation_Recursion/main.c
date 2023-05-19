@@ -16,7 +16,7 @@ void summation(int ar[], int n, int i){
     
     summation(ar, n, i+1);
     
-}
+}›
 
 int main(int argc, const char * argv[]) {
     int x;
@@ -29,3 +29,4 @@ int main(int argc, const char * argv[]) {
     printf("%d",sum);
     return 0;
 }
+
